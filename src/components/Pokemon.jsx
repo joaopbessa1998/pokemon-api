@@ -3,8 +3,8 @@ export const Pokemon = (props) => {
     const {name} = props
 
     return (
-      <div>
-        <p>Nome do Pokemon: {name}</p>
+      <div className="name_container">
+        <h2 className="nameh2">{name}</h2>
       </div>
     );
   }

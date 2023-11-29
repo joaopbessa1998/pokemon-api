@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+/*
+dg: rgba(17, 17, 17, 1);
+lg: rgba(255, 255, 255, 0.5);
+w: rgba(255, 255, 255, 1); 
+
+font:
+inter
+font-size: 64px;
+font-weight: 600;
+letter-spacing: -0.06em;
+line-height: 1;
+
+
+font-size: 20px;
+font-weight: 400;
+letter-spacing: -0.02em;
+line-height: 1.4;
+*/
+
+body {
+    background: #111111;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+
+.name_container {
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 1);
+    width: 600px;
+    margin: 0 auto 30px auto;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    transition: all .25s ease-in-out;
+}
+
+.name_container:hover {
+    background-color: transparent;
+    transition: all .25s ease-in-out;
+}
+
+.name_container:hover .nameh2 {
+    color: rgba(255, 255, 255, 1);
+    transition: all .25s ease-in-out;
+}
+
+.nameh2 {
+    color: rgba(17, 17, 17, 1);
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: -0.06em;
+    transition: all .25s ease-in-out;
+}
