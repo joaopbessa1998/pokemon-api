@@ -1,6 +1,11 @@
-export const Pokemon = () => {
+export const Pokemon = (props) => {
+
+    const {name} = props
+
     return (
-      <div>Nome do Pokemon: Pikachu</div>
+      <div>
+        <p>Nome do Pokemon: {name}</p>
+      </div>
     );
   }
   

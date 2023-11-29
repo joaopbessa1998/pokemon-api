@@ -4,7 +4,8 @@ export const Home = () => {
   return (
     <div>
       Olá
-      <Pokemon />
+      <Pokemon name="Charizard" />
+      <Pokemon name="Pikachu" />
     </div>
   );
 }
